@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> KLM Assignment - Image Carousel</title>
+		<link href="./css/carousel.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="carousel-wrapper">
+			<span id="cimage1"></span>
+			<span id="cimage2"></span>
+			<span id="cimage3"></span>
+			<span id="cimage4"></span>
+			<span id="cimage5"></span>
+            <span id="cimage6"></span>
+
+            <div class="content-wrapper">
+                <div class="content1 content"><span>Page1<span></div>
+                <div class="content2 content"><span>Page2<span></div>
+                <div class="content3 content"><span>Page3<span></div>
+                <div class="content4 content"><span>Page4<span></div>
+                <div class="content5 content"><span>Page5<span></div>
+            </div>
+
+			<div class="img-wrapper">
+				<img src="./images/home1.jpg" class="cimage" alt="Slider page1"/>
+				<img src="./images/home2.jpg" class="cimage" alt="Slider page2"/>
+				<img src="./images/home3.jpg" class="cimage" alt="Slider page3"/>
+				<img src="./images/home4.jpg" class="cimage" alt="Slider page4"/>
+				<img src="./images/home5.jpg" class="cimage" alt="Slider page5"/>
+			</div>
+            
+            <div class="nav-wrapper">
+                <a href="#cimage1" class="cimage-move cm1" onclick="MAIN.handleNavClick('content1', 'cm1');"></a>
+                <a href="#cimage2" class="cimage-move cm2" onclick="MAIN.handleNavClick('content2','cm2');"></a>
+                <a href="#cimage3" class="cimage-move cm3" onclick="MAIN.handleNavClick('content3','cm3');"></a>
+                <a href="#cimage4" class="cimage-move cm4" onclick="MAIN.handleNavClick('content4','cm4');"></a>
+                <a href="#cimage5" class="cimage-move cm5" onclick="MAIN.handleNavClick('content5','cm5');"></a>
+                </div>
+            </div>
+		</div>
+       
+	</body>
+</html>

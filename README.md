@@ -2,7 +2,7 @@
 
 ## Obective ##
 
-#### We need to create Carousel/slider using KLM assets without using any javascript library and should exactly as mentioned in the template. ####
+#### We need to create Carousel/slider using KLM assets without using any javascript library and it should not be exactly as per KLM template. ####
 
 ### Features ###
 * Develeloped an image carousel as re-usable component

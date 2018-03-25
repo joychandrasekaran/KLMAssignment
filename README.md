@@ -13,3 +13,6 @@
 * One sample developed using javascript (index.html)
 * one sample without using javascript (index2.html)
 
+### Note ###
+* Index.html => Carousel using javascript and CSS3
+* Index2.html => Carousel using only CSS3 

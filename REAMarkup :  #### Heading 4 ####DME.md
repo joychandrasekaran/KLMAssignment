@@ -9,7 +9,7 @@
   * used CSS3 transition
   * used Object Literal Notation pattern
   * used media-queries for Responsive (RWD)
-  * CSS and JSLint used or code cleanup
+  * used CSS and JSLint for code cleanup
 * One sample developed using javascript (index.html)
 * one sample without using javascript (index2.html)
 
